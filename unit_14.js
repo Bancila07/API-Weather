@@ -9,7 +9,6 @@ const cities =  {
     "690791": "Ukraine"
 }
 
-
 function  getWeather(){
     const cityId = document.querySelector('#city').value;
     fetch(`${param.url}weather?id=${cityId}&units=metric&APPID=${param.appid}`)
